@@ -1,8 +1,8 @@
 # Site settings
-title: Your Name
-email: Your Email
-description: "Your Description"
-baseurl: ""
+title: jayCorp
+email: jaycorpinc@gmail.com
+description: Stuff regarding things
+baseurl: "jaycorp.github.io"
 url: ""
 paginate: 4
 paginate_path: "page/:num/"

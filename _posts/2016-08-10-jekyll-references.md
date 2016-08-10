@@ -16,7 +16,7 @@ title: Jekyll References
 
 ## Be more effecient in this simplicity.
 
-* Using a generator to create basic posts smooths the process along. [Jekyll-compose](https://github.com/jekyll/jekyll-compose)
+* Using a generator to create basic posts smooths the process along. [Jekyll-compose](https://github.com/jekyll/jekyll-compose) Then you can just use `bundle exec jekyll post "My New Post"` to generate the a file for the new post.
 
 ## Style content with markdown
 

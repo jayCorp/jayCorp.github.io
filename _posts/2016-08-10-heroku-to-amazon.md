@@ -8,14 +8,8 @@ title: Heroku to Amazon
 [Comparing Hardware](http://stackoverflow.com/a/9803182)
 
 
-```
-  
-
+```bash
 free -ht
-```
-
-```
-
    
              total       used       free     shared    buffers     cached
 Mem:           60G        54G       5.3G        41M       3.5G        15G
@@ -24,13 +18,8 @@ Swap:          60G       1.8G        59G
 Total:        121G        56G        64G
 ```
 
-```
-
-
+```bash
 cat /proc/cpuinfo
-```
-
-```
 
 
   processor	: 0

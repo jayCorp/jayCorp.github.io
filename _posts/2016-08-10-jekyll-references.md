@@ -25,3 +25,6 @@ to generate the a file for the new post.
 ## Style content with markdown
 
 * Markdown is pretty simple, you can probably learn it on the fly using [Jekyll Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+# Custom domains
+Point a domain at it if you like. [Guide] (https://help.github.com/articles/quick-start-setting-up-a-custom-domain/)

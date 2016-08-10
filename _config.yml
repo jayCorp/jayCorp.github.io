@@ -2,7 +2,7 @@
 title: jayCorp
 email: jaycorpinc@gmail.com
 description: Stuff regarding things
-baseurl: "jaycorp.github.io"
+baseurl: ""
 url: ""
 paginate: 4
 paginate_path: "page/:num/"

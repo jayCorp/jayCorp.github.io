@@ -21,6 +21,8 @@ free -ht
 
 {% endhighlight %}
 
+
+
 {% highlight ruby %}
 cat /proc/cpuinfo
 

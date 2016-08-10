@@ -9,10 +9,14 @@ title: Heroku to Amazon
 
 
 ```
+
+
 free -ht
 ```
 
 ```
+
+
              total       used       free     shared    buffers     cached
 Mem:           60G        54G       5.3G        41M       3.5G        15G
 -/+ buffers/cache:        35G        24G
@@ -21,10 +25,14 @@ Total:        121G        56G        64G
 ```
 
 ```
+
+
 cat /proc/cpuinfo
 ```
 
 ```
+
+
 processor	: 0
 vendor_id	: GenuineIntel
 cpu family	: 6

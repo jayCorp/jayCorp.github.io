@@ -25,7 +25,6 @@ cat /proc/cpuinfo
 ```
 
 ```
-
 processor	: 0
 vendor_id	: GenuineIntel
 cpu family	: 6

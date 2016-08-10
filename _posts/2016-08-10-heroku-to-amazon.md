@@ -10,7 +10,7 @@ title: Heroku to Amazon
 
 ````
 free -ht
-```````
+````
 
 `````
              total       used       free     shared    buffers     cached
@@ -23,7 +23,9 @@ Total:        121G        56G        64G
 ````
 cat /proc/cpuinfo
 ````
+
 ```
+
 processor	: 0
 vendor_id	: GenuineIntel
 cpu family	: 6
@@ -49,5 +51,4 @@ clflush size	: 64
 cache_alignment	: 64
 address sizes	: 46 bits physical, 48 bits virtual
 power management:
-
 ```

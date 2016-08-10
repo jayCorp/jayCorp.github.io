@@ -12,8 +12,8 @@ facebook: username
 twitter: username
 instagram: username
 google_plus: username
-github: username
-disqus: username
+github: jaycorp
+disqus: jay_corp
 
 # Build settings
 markdown: kramdown

@@ -22,4 +22,4 @@ title: Rails DevOps
 
 
  * Other PaaS
-    * Flynn(https://flynn.io/pricing)E
+    * [Flynn](https://flynn.io/pricing)

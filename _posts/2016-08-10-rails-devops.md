@@ -11,15 +11,15 @@ title: Rails DevOps
 
 
 * Heroku Style Clones
-  * [Dokku + VPS] (http://paulcpederson.com/articles/make-your-own-heroku/)
+  * [Dokku + VPS](http://paulcpederson.com/articles/make-your-own-heroku/)
   * [Dokkur PaaS ](https://dokkur.com/#!/pricing)
-  * [Deis] (http://deis.io/)
+  * [Deis](http://deis.io/)
 
 
 * Amazon PaaS
-  * [Elastic Beanstalk] ( http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Ruby_rails.html )
-  * [OpWorks] ( http://willkoehler.net/2014/10/15/deploy-a-rails-app-with-aws-opsworks.html )
+  * [Elastic Beanstalk]( http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Ruby_rails.html )
+  * [OpWorks]( http://willkoehler.net/2014/10/15/deploy-a-rails-app-with-aws-opsworks.html )
 
 
  * Other PaaS
-    * Flynn (https://flynn.io/pricing)E
+    * Flynn(https://flynn.io/pricing)E

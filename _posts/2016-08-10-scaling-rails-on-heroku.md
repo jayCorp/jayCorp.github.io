@@ -27,9 +27,9 @@ title: Scaling Rails on Heroku
 * Postgres Memory Errors
 
 * Growing Datasets
-  > Partitioning Tables based on date (archiving)
-  > Multitenant partitions
-  > noSql?
+- Partitioning Tables based on date (archiving)
+- Multitenant partitions
+- noSql?
 
 
 

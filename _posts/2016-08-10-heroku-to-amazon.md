@@ -3,6 +3,10 @@ layout: post
 title: Heroku to Amazon
 ---
 
+Elastic Beanstalk
+
+OpWorks
+
 [Comparing Heroku and Amazon PostreSQL](https://blog.codeship.com/heroku-postgresql-versus-amazon-rds-postgresql/)
 
 [Comparing Hardware](http://stackoverflow.com/a/9803182)

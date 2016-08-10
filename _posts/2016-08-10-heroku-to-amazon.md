@@ -7,7 +7,7 @@ title: Heroku to Amazon
 
 [Comparing Hardware](http://stackoverflow.com/a/9803182)
 
-`heroku run console`
+You can figure out what kind of underlaying hardware your dynos are running on with `heroku run console` 
 
 
 {% highlight ruby %}

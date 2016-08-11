@@ -14,6 +14,7 @@ title: Rails DevOps
   * [Dokku + VPS](http://paulcpederson.com/articles/make-your-own-heroku/)
   * [Dokkur PaaS ](https://dokkur.com/#!/pricing)
   * [Deis](http://deis.io/)
+    * [Deis Workflow](http://deis-www.s3-website-us-east-1.amazonaws.com/workflow/how-it-works/)
 
 
 * Amazon PaaS

@@ -1,46 +1,342 @@
----
-layout: default
----
 
-<div class="mdl-cell--8-col">
-
-  <ul class="posts">
-
-    {% for post in paginator.posts %}
-      <li>
-        <div class="mdl-card mdl-shadow--2dp layout-card">
-          {% if post.header_image %}
-          <div class="mdl-card__media mdl-color-text--grey-50" style="background-image: url('http://christo.js.org/blog/{{ post.header_image }}');">
-          </div>
-          {% endif %}
-          <div class="mdl-card__title">
-            <a href="{{ post.url | prepend: site.baseurl }}">
-              <h1 class="mdl-card__title-text">{{ post.title }}</h1>
-            </a>
-          </div>
-          <div class="mdl-card__supporting-text">
-            <span class="post-date">{{ post.date | date: "%-d %B %Y" }}</span>
-            <p class="post-preview">
-              {{ post.content | strip_html | truncatewords:35}}
-            </p>
-          </div>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-
-
-  <!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ site.url }}{{ paginator.previous_page_path }}" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">Before</a>
-  {% else %}
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ site.url }}{{ paginator.next_page_path }}" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">Next</a>
-  {% else %}
-  {% endif %}
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimum-scale=1' name='viewport'>
+<meta content='Automated dealership service department text messaging' name='description'>
+<meta content='Singlethread' name='author'>
+<meta data-key='Singlethread' id='instance_type'>
+<link href='https://divmhxo21smnm.cloudfront.net/assets/st-favicon-2-795828e4281de0c3692788429dae1cbc3ed3b59beb36f5c8b9272a4a59343f56.ico' rel='shortcut icon' type='image/ico'>
+<title>Singlethread - Automated Dealership Text Messaging</title>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="sNWX0W8tqWG1W38DCPd2GDkfxWTnwzfDOHV7daTveopDwThs1/LIl6uPUVneH6A/nuKKSbTmYPMmOf3La2Jd5w==" />
+<link rel="stylesheet" media="all" href="https://divmhxo21smnm.cloudfront.net/assets/landing/bootstrap.min-cfca9b8fac0e14dd9cd5ffe51214aff7cdc22efaf380ae10e4b65367261ff987.css" />
+<link rel="stylesheet" media="all" href="https://divmhxo21smnm.cloudfront.net/assets/landing/theme-7ba0dd840f7d61b1f3723cce9749f6fe006d3d1c112c4c3f52493308233f777f.css" />
+<link rel="stylesheet" media="all" href="https://divmhxo21smnm.cloudfront.net/assets/landing/animate-c6e234e2895bed8e12de42b416ac7cba33fe319a4f1d0a5196bc3cee3a0ad86b.css" />
+<link rel="stylesheet" media="all" href="https://divmhxo21smnm.cloudfront.net/assets/landing/owl.carousel-ffb766acd2ced59b2f5598f277e0c7e4b008d96490f5374c0055950e6003f904.css" />
+<link rel="stylesheet" media="all" href="https://divmhxo21smnm.cloudfront.net/assets/landing/owl.theme-476b7cd780c460e5d4120ee16a10422bd3bca8cb9f7c52809ed14d41cd505c1c.css" />
+<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body role='document'>
+<script src='//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js'></script>
+<script type='text/javascript'>
+new WOW().init()
+</script>
+<nav class='navbar navbar-default navbar-static-top stnav'>
+<div class='container'>
+<div class='navbar-header'>
+<form action='/dealer'>
+<button aria-controls='navbar' aria-expanded='false' class='navbar-toggle collapsed' data-target='#navbar' data-toggle='collapse' ng-click="$location.path( '/dealer' );" type='submit'>
+<span class='sr-only'>Toggle navigation</span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+</form>
+<a class='navbar-brand' href='#'>
+<img src='https://divmhxo21smnm.cloudfront.net/assets/landing/st_stack_logo-8d4d32b74995f8339d82d5f9b0e38c6f0660486fd01542e37eb04a6ef4d0cf4b.png'>
+</a>
 </div>
-
+<div class='navbar-collapse collapse' id='navbar'>
+<ul class='nav navbar-nav navbar-right'>
+<li>
+<p class='navbar-text'>Call us at 844-920-2656</p>
+</li>
+<li>
+<p class='navbar-text'>Ready to stop playing phone tag?</p>
+</li>
+<li>
+<form action='/dealer' method='get'>
+<button class='btn btn-default navbar-btn' type='submit'>
+<a alt='Log In' href='/dealer/#login'>Log in</a>
+</button>
+</form>
+</li>
+</ul>
 </div>
+<!-- /.nav-collapse -->
+</div>
+</nav>
+<!-- Jumbotron -->
+<div class='container-fluid st_jumbotron'>
+<div class='col-md-2'></div>
+<div class='col-md-5'>
+<h1 class='st_jumbotron_text animated fadeInLeft'>Keep your customers updated without voicemail.</h1>
+<p align='left' class='st animated fadeInLeft title_message hidden-xs'>Singlethread helps automobile dealerships eliminate one of the most frequent customer complaints in the service department - poor or infrequent communication during vehicle service.</p>
+<a class='btn btn-st btn-lg topalign animated fadeInLeft' href='/2016/12/27/keep-your-customers-updated-without-voicemail/' style='float:left'>Learn More</a>
+</div>
+<div class='col-md-3 st_jumbotron_img animated fadeInRight hidden-xs hidden-sm'>
+<img align='right' class='img-responsive' src='https://divmhxo21smnm.cloudfront.net/assets/landing/iphone_6_white_1-2e7c03c9187ad0ca10dd00ef86268ac1b0e67fe1435cd8fc01472d77fd912388.png'>
+</div>
+<div class='col-md-2'></div>
+</div>
+<!-- Main Content -->
+<!-- New small screen block 1 -->
+<section id='block1'>
+<div class='container-fluid st_content hidden-md hidden-lg'>
+<div class='col-md-2'></div>
+<!-- spacer -->
+<div class='col-md-4'>
+<div>
+<img class='img-responsive' src='https://divmhxo21smnm.cloudfront.net/assets/landing/iPhone_6_white_hand-fc49032187bc46e6a98d2b2a380f315325dc2381fecf17feaf3b046b3a9d7361.png'>
+</div>
+</div>
+<div class='col-md-4'>
+<h2 class='wow animated fadeIn' style='text-align: center'>The Power of Automation</h2>
+<p class='wow animated fadeIn st' style='text-align: center'>Singlethread's automatic, patent-pending system makes it easy to keep every customer updated on their vehicle status. Singlethread sends automated text messages as the vehicle progresses through service so every customer is updated, every time.</p>
+<a class='btn btn-st btn-lg wow animated fadeInUp center_button' href='/2016/12/27/the-power-of-automation/'>The Speed of Singlethread</a>
+</div>
+<div class='col-md-2'></div>
+<!-- spacer -->
+</div>
+</section>
+<!-- New large screen block 1 -->
+<section id='block1'>
+<div class='container-fluid hidden-sm hidden-xs'>
+<div class='col-md-2'></div>
+<!-- spacer -->
+<div class='col-md-4'>
+<div>
+<img class='img-responsive' src='https://divmhxo21smnm.cloudfront.net/assets/landing/iPhone_6_white_hand-fc49032187bc46e6a98d2b2a380f315325dc2381fecf17feaf3b046b3a9d7361.png'>
+</div>
+</div>
+<div class='col-md-4'>
+<h2 class='wow animated fadeIn' style='text-align:left'>The Power of Automation</h2>
+<p class='wow animated fadeIn st' style='text-align:left'>Singlethread's automatic, patent-pending system makes it easy to keep every customer updated on their vehicle status. Singlethread sends automated text messages as the vehicle progresses through service so every customer is updated, every time.</p>
+<a class='btn btn-st btn-lg wow animated fadeInUp' href='/2016/12/27/the-power-of-automation/' style='float:left'>The Speed of Singlethread</a>
+</div>
+</div>
+</section>
+<!-- New small screen block 2 -->
+<section id='block2'>
+<div class='container-fluid st_content hidden-md hidden-lg pad'>
+<div class='col-md-2'></div>
+<!-- spacer -->
+<div class='col-md-4'>
+<div class='right_pic'>
+<img class='img-responsive' src='https://divmhxo21smnm.cloudfront.net/assets/landing/iphone_6_black-0c811cfbae14d75c041526567198c8518c4ae95a24cf17ce1055a27f6871e314.png'>
+</div>
+</div>
+<div class='col-md-4'>
+<h2 class='wow animated fadeIn' id='' style='text-align: center'>Faster Customer Approvals</h2>
+<p class='wow animated fadeIn st' style='text-align: center'>
+According to a
+<a href='https://s3.amazonaws.com/singlethread-public/Marketing+Site/Intelligence_Review_Edition2.pdf'>study prepared by Dynmark</a>,
+90% of incoming text messages are read within 3 seconds of being sent, with a final read rate of 98%. With Singlethread, customers quickly review and approve work right from their mobile device without time consuming voicemail or phone-tag. Singlethread delivers faster customer-pay approvals to help you service more vehicles and generate more revenue.
+</p>
+<a class='btn btn-st btn-lg wow animated fadeInUp center_button' href='/2016/12/27/faster-customer-approvals/'>Improve Communication</a>
+</div>
+<div class='col-md-2'></div>
+<!-- spacer -->
+</div>
+</section>
+<!-- New large screen block 2 -->
+<section id='block2'>
+<div class='container-fluid st_content hidden-sm hidden-xs'>
+<div class='col-md-2'></div>
+<!-- spacer -->
+<div class='col-md-4'>
+<div class='right_pic'>
+<h2 class='left_content wow animated fadeIn' id=''>Faster Customer Approvals</h2>
+<p class='left_content st wow animated fadeIn'>
+According to a
+<a href='https://s3.amazonaws.com/singlethread-public/Marketing+Site/Intelligence_Review_Edition2.pdf'>study prepared by Dynmark</a>,
+90% of incoming text messages are read within 3 seconds of being sent, with a final read rate of 98%. With Singlethread, customers quickly review and approve work right from their mobile device without time consuming voicemail or phone-tag. Singlethread delivers faster customer-pay approvals to help you service more vehicles and generate more revenue.
+</p>
+<a class='btn btn-st btn-lg wow animated fadeInUp' href='/2016/12/27/faster-customer-approvals/' style='float:right'>Improve Communication</a>
+</div>
+</div>
+<div class='col-md-4 right_pic' style=''>
+<img align='left' class='img-responsive' src='https://divmhxo21smnm.cloudfront.net/assets/landing/iphone_6_black-0c811cfbae14d75c041526567198c8518c4ae95a24cf17ce1055a27f6871e314.png'>
+</div>
+</div>
+</section>
+<!-- New small screen block 3 -->
+<section id='block3'>
+<div class='container-fluid st_content hidden-md hidden-lg pad'>
+<div class='col-md-2'></div>
+<!-- spacer -->
+<div class='col-md-4'>
+<div>
+<img class='img-responsive' src='https://divmhxo21smnm.cloudfront.net/assets/landing/imac_facing_right-aff8cf37b6d0ff2f579aa79c2da2c89370cd3d87b666c1363cab987c484bce29.png'>
+</div>
+</div>
+<div class='col-md-4'>
+<h2 class='right_content wow animated fadeIn' style='text-align: center'>Real-time Communication Improvement</h2>
+<p class='right_content st wow animated fadeIn' style='text-align: center'>How long does it take you to identify and resolve a communication problem? With Singlethread's real-time customer satisfaction measurement and communication performance metrics, you'll find and resolve problems today, before a customer gets a survey. Singlethread is not just software, it's a communication strategy that ensures that your dealership is communicating with every customer.</p>
+<a class='btn btn-st btn-lg wow animated fadeInUp center_button' href='#contact'>Try For Free</a>
+</div>
+<div class='col-md-2'></div>
+<!-- spacer -->
+</div>
+</section>
+<!-- New large screen block 3 -->
+<section id='block3'>
+<div class='container-fluid st_content hidden-sm hidden-xs'>
+<div class='col-md-2'></div>
+<!-- spacer -->
+<div class='col-md-4'>
+<div class='left_pic'>
+<img class='img-responsive' src='https://divmhxo21smnm.cloudfront.net/assets/landing/imac_facing_right-aff8cf37b6d0ff2f579aa79c2da2c89370cd3d87b666c1363cab987c484bce29.png'>
+</div>
+</div>
+<div class='col-md-4'>
+<h2 class='wow animated fadeIn' style='text-align:left'>Real-time Communication Improvement</h2>
+<p class='wow animated fadeIn st' style='text-align:left'>How long does it take you to identify and resolve a communication problem? With Singlethread's real-time customer satisfaction measurement and communication performance metrics, you'll find and resolve problems today, before a customer gets a survey. Singlethread is not just software, it's a communication strategy that ensures that your dealership is communicating with every customer.</p>
+<a class='btn btn-st btn-lg wow animated fadeInUp' href='#contact' style='float:left'>Get Started Now</a>
+</div>
+</div>
+</section>
+<!-- Partners -->
+<section id='partners'>
+<div class='container-fluid st_partners partner_img'>
+<h1 class='text-center'>Industry Leading Partners</h1>
+<p class='st text-center'>Singlethread has partnered with and is certified by industry leaders.  You can have confidence in Singlethread's security and protection of your data.</p>
+<div class='owl-carousel owl-theme' id='owl-demo'>
+<div class='owl-item'>
+<a href='http://www.cdkglobal.com/michigan-software-design-0' target='_blank'>
+<img src='https://divmhxo21smnm.cloudfront.net/assets/landing/CDK-1411a35a2bc53ec650f8742604b8ebeae880b82d712ecc748bfa93a91a0d60ec.png'>
+</a>
+</div>
+<div class='owl-item'>
+<a href='http://www.reyrey.com/RCIVendor/(S(x4cfp2hnfcnlwlc0vri4onfr))/solutions/rci.aspx' target='_blank'>
+<img src='https://divmhxo21smnm.cloudfront.net/assets/landing/reyrey-98545f7451153d4bd5c7ff1a717bfdfec80b5ed163b8023fefbb2f00d1637649.png'>
+</a>
+</div>
+<div class='owl-item'>
+<a href='https://us.dealertrack.com/content/dam/dealertrack/solution/dms/opentrack/DMS_Opentrack_Info_Sheet.pdf#page=2' target='_blank'>
+<img src='https://divmhxo21smnm.cloudfront.net/assets/landing/dealertrack-44fb2d2295822cd418e457473b4d9598bbcc19de7d45b321873b854e54f20d2f.png'>
+</a>
+</div>
+<div class='owl-item'>
+<a href='http://www.automate.com/partners/openmate-partners/' target='_blank'>
+<img src='https://divmhxo21smnm.cloudfront.net/assets/landing/automatepnglogo2-dd48cd95b7ada0fe3c5995aca5203d35f55efc161f7b723da8016f042d362b18.png'>
+</a>
+</div>
+<div class='owl-item'>
+<a href='http://www.edmunds.com' target='_blank'>
+<img src='https://divmhxo21smnm.cloudfront.net/assets/landing/Edmunds_grey_web-6312f28011c58dd0fd35e0fc7981da0b67bb80a03b0bac3f936e9b3aa595a9d5.png'>
+</a>
+</div>
+<div class='owl-item'>
+<a href='http://www.trustcommerce.com' target='_blank'>
+<img src='https://divmhxo21smnm.cloudfront.net/assets/landing/trustcommerce-f1ac0ec80bc46ce422eb471311c9d6ca695de76363fd3868c504c4e5e6ed7048.png'>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact -->
+<section id='contact'>
+<div class='container-fluid'>
+<div class='col-md-3'></div>
+<!-- spacer -->
+<div class='col-md-6 partner_img'>
+<h1 class='text-center'>Singlethread helps dealers of all sizes improve efficiency and customer experience.</h1>
+<p class='st text-center'>We're helping dealers across the United States improve their communication and customer satisfaction.  Singlethread includes a free trial, but, you're free to choose.</p>
+<form action='' id='mycontactform' method='post'>
+<div class='form-group'>
+<label for='fullname'>Name</label>
+<input class='form-control' id='fullname' name='fullname' placeholder='Enter Name' type='text'>
+</div>
+<div class='form-group'>
+<label for='email'>Email</label>
+<input class='form-control' id='email' name='email' placeholder='email' type='text'>
+</div>
+<div class='form-group'>
+<label for='message'>Phone Number</label>
+<input class='form-control' id='message' name='message' placeholder='Phone Number' type='text'>
+</div>
+<div class='form-group'>
+<input class='btn btn-st' id='submit' type='button' value='Submit'>
+<div id='success' style='color:red;'></div>
+</div>
+</form>
+</div>
+</div>
+<div class='col-md-3'></div>
+</section>
+<!-- Footer -->
+<section id='footer'>
+<div class='container-fluid'>
+<div class='col-md-6 st_footer'>
+<ul>
+<li>
+| &copy 2015 Singlethread 
+</li>
+<li>
+All Rights Reserved 
+</li>
+<li>
+Handcrafted in Detroit, MI.|
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!--
+Bootstrap core JavaScript
+==================================================
+-->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js'></script>
+<script>
+  new WOW().init();
+</script>
+<script>
+  $(document).ready(function(){
+    $.ajaxSetup({
+      headers: {
+        'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
+      }
+    });
+  
+  $('#submit').click(function(){
+  
+  $.post("signup", $("#mycontactform").serialize(),  function(response) {
+    $('#success').html("Message received! We'll be in touch shortly!");
+  //$('#success').hide('slow');
+  });
+  return false;
+  
+  });
+  
+  });
+</script>
+<!-- Partner Carousel -->
+<script>
+  $(document).ready(function() {
+   
+    $("#owl-demo").owlCarousel({
+   
+        autoPlay: 3000,
+   
+        items : 3,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3]
+   
+    });
+   
+  });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-58407976-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+

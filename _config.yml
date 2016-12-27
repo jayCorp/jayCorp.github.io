@@ -1,11 +1,11 @@
 # Site settings
-title: jayCorp
+title: Singlethread Blog
 email: jaycorpinc@gmail.com
 description: Stuff regarding things
 baseurl: ""
 url: ""
 paginate: 4
-paginate_path: "page/:num/"
+paginate_path: "/blog/page/:num/"
 
 # Social links
 facebook: username

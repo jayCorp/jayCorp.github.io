@@ -1,5 +1,6 @@
 ---
-published: true
+layout: post
+title: The Power of Automation
 ---
 ## Will test
 
